@@ -10,4 +10,4 @@ apt-get install docker-engine
 service docker start
 mkdir mba
 curl https://raw.githubusercontent.com/martenlindblad/mba/master/Scala%20-%20Associative%20Analysis.ipynb -o mba/MBA.ipynb
-docker run -d -p 8888:8888 -v mba:/home/jovyan/work jupyter/all-spark-notebook
+docker run -d -p 8888:8888 -v $HOME/mba:/home/jovyan/work jupyter/all-spark-notebook
