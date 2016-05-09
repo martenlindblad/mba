@@ -14,4 +14,8 @@ Ni kan nu gå in på http://localhost:8888/
 
 Starta AssociativeAnalysis.ipynb och antingen stega igenom skriptet eller kör allihopa.
 När det är klart och inga felmeddelanden genererats, kör "bash <(curl -s https://raw.githubusercontent.com/martenlindblad/mba/master/fixit.sh)".
-Kvar finns nu två .csv-filer ni kan importera till Qlik Sense.
+Kvar finns nu två .csv-filer ni kan importera till Qlik Sense med hjälp av WinSCP.
+
+Kopiera .qvf-filen till Documents\Qlik\Sense\Apps och peka om erat library till där ni sparat era .csv:er.
+
+Ladda data och berika efter behov!
